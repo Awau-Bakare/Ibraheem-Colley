@@ -15,11 +15,30 @@
       <input type="text" /> <br />
 
       <label for="email">email</label>
-      <input type="text" /><br />
+      <input type="" placeholder="ibraheem@gmail.com" /> <br />
 
       <label for="passward">passward</label>
-      <input type="text" /><br />
-      <label for="data of ba"></label>
+      <input
+        type="password"
+        pattern="^.*(?=.{8,})(?=.*[a-zA-Z])(?=.*\d)(?=.*[!#$%&? ]).*$"
+      />
+      <br />
+
+      <label for="date of birth">date of birth</label>
+      <input type="date" /> <br />
+
+      <label for="">contry</label>
+      <select name="" id="">
+        <option value="">select your contry</option>
+        <option value="">Nigeria</option>
+        <option value="">Ghana</option>
+        <option value="">Cameroon</option>
+        <option value="">Sudan</option>
+      </select>
+
+      <br />
+
+      <button>Submit</button>
     </form>
   </body>
 </html>
