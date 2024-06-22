@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    padding: 2%; 
+    padding: 2.3%; 
     background-color: #040720;
     color: white;
 }
@@ -43,15 +43,41 @@
     display: flex;
     padding: 0px 10px;
     gap: 10px;
+    font-size: 18px;
     
 }
+
+.login p{
+    font-family: 20px;
+}
+
+
 
 .login p a{
     color: chocolate;
     border-bottom: 1px solid white;
     text-decoration: none;
+    font: 18px;
     
 }
 
+.page{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.phone{
+    margin: 2%;
+    padding: 10px;
+    margin-right: 50px;
+
+
+}
+
+.phone img{
+    width: 50%;
+    height: 70%;
+}
 
 
