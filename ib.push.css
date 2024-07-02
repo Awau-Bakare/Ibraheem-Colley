@@ -1,9 +1,20 @@
 .push{
-    display: flex;
-    padding: 0px10px ;
-    margin-right: 10px;
-    background-color: rgb(0, 255, 221) fitcontent;
-    font-family: sans-serif;
-    font-size: medium;
     
+    padding: 0px 0px;
+    margin-right: 10px;
+    background-color: rgb(47, 255, 109);
+    font-family: cursive;
+    font-weight: bolder;
+    
+    
+
  }
+
+.head{
+    color: black;
+
+}
+
+.p1:hover:hover{
+    color: azure;
+}
